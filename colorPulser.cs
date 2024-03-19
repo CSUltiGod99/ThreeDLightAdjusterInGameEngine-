@@ -15,6 +15,7 @@ public class ColorBlinker : MonoBehaviour
         material = GetComponent<Renderer>().material;
         startColor = Color1;
         endColor = Color2;
+        startMidColor;
     }
 
     void Update()
